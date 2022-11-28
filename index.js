@@ -46,3 +46,4 @@ store.dispatch({ type: BUY_CAKE });
 unsubscribe();
 
 console.log(store);
+console.log("Initial State", store.getState());
